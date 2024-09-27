@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#seat-container {
+    display: grid;
+    grid-template-columns: repeat(7, 40px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+    width: max-content;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: lightgreen;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.booked {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+.booking-form {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 50px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#booking-result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: darkgreen;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
