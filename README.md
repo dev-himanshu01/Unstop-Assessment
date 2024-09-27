@@ -23,8 +23,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/train-seat-booking.git
-   cd train-seat-booking
+   git clone https://github.com/dev-himanshu01/Unstop-Assessment.git
+   cd Unstop-Assessment
    ```
 
 2. Open the project folder and double-click `index.html` to run it in your browser.
