@@ -1,7 +1,3 @@
-Here's a **fabulous README** that you can use for your GitHub repository, which clearly explains the project, how it works, and how to get started with it:
-
----
-
 # 🚆 Train Seat Booking System
 
 A web-based **Train Seat Booking System** that allows users to book seats in a train coach with real-time availability updates. This project follows the specifications provided in the assignment brief, enabling users to reserve up to 7 seats in a row with priority, or across multiple rows if necessary. The app is simple, efficient, and user-friendly!
